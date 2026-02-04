@@ -1,0 +1,113 @@
+export const sample_foods = [
+  {
+    id: '1',
+    name: 'Pizza Pepperoni',
+    cookTime: '10-20',
+    price: 160,
+    favorite: false,
+    origins: ['italy'],
+    stars: 4.5,
+    imageUrl: 'food-1.jpg',
+    tags: ['FastFood', 'Pizza', 'Lunch'],
+    protein: 22,
+    fat: 18,
+    carbs: 35,
+    calories: 400
+  },
+  {
+    id: '2',
+    name: 'Meatball',
+    price: 200,
+    cookTime: '20-30',
+    favorite: true,
+    origins: ['persia', 'middle east', 'china'],
+    stars: 5,
+    imageUrl: 'food-2.jpg',
+    tags: ['SlowFood', 'Lunch'],
+    protein: 28,
+    fat: 16,
+    carbs: 10,
+    calories: 380
+  },
+  {
+    id: '3',
+    name: 'Hamburger',
+    price: 95,
+    cookTime: '10-15',
+    favorite: false,
+    origins: ['germany', 'us'],
+    stars: 3.5,
+    imageUrl: 'food-3.jpg',
+    tags: ['FastFood', 'Hamburger'],
+    protein: 25,
+    fat: 20,
+    carbs: 30,
+    calories: 450
+  },
+  {
+    id: '4',
+    name: 'Fried Potatoes',
+    price: 75,
+    cookTime: '15-20',
+    favorite: true,
+    origins: ['belgium', 'france'],
+    stars: 3,
+    imageUrl: 'food-4.jpg',
+    tags: ['FastFood', 'Fry'],
+    protein: 5,
+    fat: 22,
+    carbs: 40,
+    calories: 370
+  },
+  {
+    id: '5',
+    name: 'Chicken Soup',
+    price: 110,
+    cookTime: '40-50',
+    favorite: false,
+    origins: ['india', 'asia'],
+    stars: 3.5,
+    imageUrl: 'food-5.jpg',
+    tags: ['SlowFood', 'Soup'],
+    protein: 18,
+    fat: 10,
+    carbs: 8,
+    calories: 240
+  },
+  {
+    id: '6',
+    name: 'Vegetables Pizza',
+    price: 150,
+    cookTime: '40-50',
+    favorite: false,
+    origins: ['italy'],
+    stars: 4.0,
+    imageUrl: 'food-6.jpg',
+    tags: ['FastFood', 'Pizza', 'Lunch'],
+    protein: 15,
+    fat: 14,
+    carbs: 38,
+    calories: 390
+  },
+];
+
+export const sample_tags = [
+  { name: 'All', count: 6 },
+  { name: 'FastFood', count: 4 },
+  { name: 'Pizza', count: 2 },
+  { name: 'Lunch', count: 3 },
+  { name: 'SlowFood', count: 2 },
+  { name: 'Hamburger', count: 1 },
+  { name: 'Fry', count: 1 },
+  { name: 'Soup', count: 1 },
+];
+
+export const sample_users = [
+  {
+    name: 'admin1',
+    email: 'admin1@gmail.com',
+    password: '12345',
+    address: 'Tanta',
+    isAdmin: true,
+  },
+];
